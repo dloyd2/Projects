@@ -1,0 +1,8 @@
+#! /bin/bash
+
+qmake 433UI.pro
+echo "UI executable updated"
+echo "cleaning up qmake reminants"
+rm .qmake.stash
+rm Makefile
+echo "qmake clean up finished"

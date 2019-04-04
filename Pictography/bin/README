@@ -1,0 +1,1 @@
+this directory is dedicated to the executables that are run by the Qt user interface. These executables will be called via a QProcess upon certain logical conditions holding true in the user interface.

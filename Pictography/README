@@ -1,0 +1,15 @@
+Pictography is a project that allows a user to encrypt a string into an image, and then decrypt the image with their key to recieve the plain text again. Project is entirely C++. Dependancies are cmake, qmake, QT, VTK.
+
+Pictography was created by a group, my contributions:
+	- Creating clear file structure for project
+	- Entire QT UI written in QEditor
+		- found in UI/mainwindow.[cpp/h]
+	- Part of Decryption
+		- found in aux/crypto/
+	- DataReader/Writer that uses VTK API to write to files
+		- found in aux/io/
+	- bash scripts install, runPicto, update, updateUI
+		- updateUI found in UI/
+		- all others found in current directory
+	- ImageManager that rasterizes an image from a given set of triangles
+		- found in aux/imageCreation/
