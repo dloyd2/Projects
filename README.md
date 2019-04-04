@@ -1,1 +1,1 @@
-A collection of Daniel Loyd's passion projects
+A collection of Daniel Loyd's passion projects and class projects.
